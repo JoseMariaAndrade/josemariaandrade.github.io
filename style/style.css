@@ -1,0 +1,25 @@
+body{
+    background-color: lightslategray;
+}
+
+footer{
+    bottom: 0;
+    left: 0;
+    text-align: center;
+    width: 100%;
+    position: fixed;
+    padding-bottom: 5px;
+}
+
+.block{
+    margin-top: 10%;
+    margin-left: 30%;
+    margin-right: 30%;
+    background-color: azure;
+    vertical-align: auto;
+    visibility: hidden;
+    text-align: center;
+}
+
+.social{
+}
