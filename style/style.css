@@ -1,5 +1,9 @@
 body{
-    background-color: lightslategray;
+    background: url("background.png");
+    background-size: cover;
+    background-position: right top;
+    background-repeat: no-repeat;
+    font-family: 'Roboto', sans-serif;
 }
 
 footer{
@@ -8,18 +12,31 @@ footer{
     text-align: center;
     width: 100%;
     position: fixed;
-    padding-bottom: 5px;
+    padding-bottom: 10px;
+    color: #ffee58;
+}
+
+.my-card-content {
+    padding: 16px;
 }
 
 .block{
-    margin-top: 10%;
-    margin-left: 30%;
-    margin-right: 30%;
-    background-color: azure;
-    vertical-align: auto;
-    visibility: hidden;
+    box-shadow: 5px 5px #a8a8a8;
+    width: auto;
+    height: auto;
+    background-color: lightgoldenrodyellow;
     text-align: center;
+    vertical-align: center;
+    visibility: hidden;
 }
 
 .social{
+    padding: 10px 10px 10px 10px;
+}
+
+.card{
+    display: flex;
+    margin-top: 15%;
+    width: max-content;
+    visibility: hidden;
 }
