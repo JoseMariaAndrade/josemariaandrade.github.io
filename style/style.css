@@ -1,6 +1,6 @@
 body{
-    background: url("background.png");
-    background-size: cover;
+    background: url("../images/background.jpg");
+    background-size: auto;
     background-position: right top;
     background-repeat: no-repeat;
     font-family: 'Roboto', sans-serif;
@@ -9,34 +9,9 @@ body{
 footer{
     bottom: 0;
     left: 0;
-    text-align: center;
+    text-align: end;
     width: 100%;
     position: fixed;
-    padding-bottom: 10px;
-    color: #ffee58;
-}
-
-.my-card-content {
-    padding: 16px;
-}
-
-.block{
-    box-shadow: 5px 5px #a8a8a8;
-    width: auto;
-    height: auto;
-    background-color: lightgoldenrodyellow;
-    text-align: center;
-    vertical-align: center;
-    visibility: hidden;
-}
-
-.social{
-    padding: 10px 10px 10px 10px;
-}
-
-.card{
-    display: flex;
-    margin-top: 15%;
-    width: max-content;
-    visibility: hidden;
+    padding: 10px;
+    color: #573601;
 }
